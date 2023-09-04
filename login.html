@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png" type="image/svg+xml">
+
+    <title>DriveWise </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/loginstyle.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <section class="container forms">
+        <div class="form login" id="loginForm">
+            <div class="form-content">
+                <header>Login</header>
+                <form action="" method="GET">
+                    <div class="field input-field">
+                        <input id="email" type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="password" type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div id="errorMessage"></div>
+                    <!-- <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div> -->
+
+                    <div class="field button-field">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+
+            <!-- <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <span>Login with Facebook</span>
+                </a>
+                <a href="#" class="field google">
+                    <i class='bx bxl-google google-icon'></i>
+                    <span>Login with Google</span>
+                </a>
+            </div> -->
+        </div>
+
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form action="#">
+
+                    <div class="field input-field">
+                        <input id="name" type="text" placeholder="Your Name" class="name">
+                    </div>
+                    
+                    <div class="field input-field">
+                        <input id="signupEmail" type="email" placeholder="Email" class="email">
+                    </div>
+
+                    <div class="field input-field">
+                        <input  id="signupPassword" type="password" placeholder="Create password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="phone_number" type="number" placeholder="Your Phone Number" class="ph-number">
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="address" type="text" placeholder="Your Address" class="address">
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Signup</button>
+                    <div id="errorMessage"></div>
+
+                    <div id="successMessage"></div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+
+            <!-- <div class="line"></div> -->
+
+            <!-- <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook-circle'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                    <a href="#" class="field google">
+                        <img src="#" alt="" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+             -->
+            <!-- <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="#" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="scripts/loginscript.js"></script>
+</body>
+
+</html>
